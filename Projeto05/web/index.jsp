@@ -11,32 +11,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JavaDB - Cliente</title>
+        <title>JavaDB - Projeto 05</title>
     </head>
     <body>
         <h1>JavaDB</h1>
-        <h2>Clientes</h2>
-        <%try{%>
-            <% ArrayList<Customer> list = Customer.getList(); %>
-            <table border="1">
-                <tr>
-                    <th>ID</th>
-                    <th>NOME</th>
-                    <th>EMAIL</th>
-                    <th>DETALHES</th>
-                </tr>
-                <% for(Customer c: list){ %>
-                <tr>
-                    <td><%= c.getId()%></td>
-                    <td><%= c.getName()%></td>
-                    <td><%= c.getEmail()%></td>
-                    <td><a href="details.jsp?id=<%= c.getId()%>">Ver Detalhes</a></td>
-                </tr>
-                <%}%>
-            </table>
-        <%} catch(Exception e){%>
-            <h3 style="color: red"><%= e.getMessage()%></h3>
-        <%}%>
-        
+        <hr>
+        <h3><a href="customers.jsp">Clientes</a></h3>
+        <h3><a href="manufacturer.jsp">Fabricantes</a></h3>
     </body>
 </html>
