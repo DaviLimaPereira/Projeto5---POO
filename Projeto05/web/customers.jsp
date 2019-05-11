@@ -16,8 +16,16 @@
        
         <title>JavaDB - Cliente</title>
         
+        <style>
+            body {
+	background-color: #BDBDBD;	
+}
+
+        </style>
+        
     </head>
-    <body>
+    
+    <body background= "#BDBDBD";>
        
         <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
     <div class="container">
