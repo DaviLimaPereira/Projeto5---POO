@@ -20,12 +20,33 @@
 
         <title>JavaDB - Projeto 05</title>
     </head>
-    <body>
-        
-        <h1>JavaDB</h1>
-        <hr>
-        <h3><a href="customers.jsp">Clientes</a></h3>
-        <h3><a href="manufacturer.jsp">Fabricantes</a></h3>
+    <body background="img/database.jpg" >
+       <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
+    <div class="container">
+        <!-- Brand -->
+        <h1>JAVADB</h1>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"> JavaDB </span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto"> 
+                
+                
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="customers.jsp">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="manufacturer.jsp">Fabricantes</a>
+                </li>
+                
+            </ul>
+        </div> 
+    </div>
+</nav>
         <footer class="footer mt-auto py-3">
             <div class="container">
                 <span class="text-muted">Coloque o conteúdo do sticky footer aqui.</span>

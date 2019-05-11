@@ -16,7 +16,7 @@
     <body>
         <h1>JavaDB</h1>
         <h2>Compras do Clientes</h2>
-        <h3><a href="customers.jsp">Voltar a Página de Clientes</a></h3>
+       
         <%try{%>
             <% int id = Integer.parseInt(request.getParameter("id")); %>
             <% Customer c = Customer.getCustomer(id); %>
@@ -44,6 +44,7 @@
         <%} catch(Exception e){%>
             <h3 style="color: red"><%= e.getMessage()%></h3>
         <%}%>
-        
+        <hr/><hr/>
+         <h3><a href="customers.jsp">Voltar a Página de Clientes</a></h3>
     </body>
 </html>

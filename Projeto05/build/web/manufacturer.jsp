@@ -19,7 +19,7 @@
         <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
     <div class="container">
         <!-- Brand -->
-        <a class="navbar-brand" href="index.jsp">Inicio</a>
+         <h2>JAVADB - Fabricantes</h2>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -43,8 +43,7 @@
     </div>
 </nav>
         
-        <h1>JavaDB</h1>
-        <h2>Fabricantes</h2>
+      
         
         <%try{%>
         <% ArrayList<Manufacturer> list = Manufacturer.getList(); %>
@@ -71,5 +70,7 @@
         <%} catch(Exception e){%>
             <h3 style="color: red"><%= e.getMessage()%></h3>
         <%}%>
+         <hr/><hr/>
+        <h3><a href="index.jsp">Voltar a Página Principal</a></h3>
     </body>
 </html>
