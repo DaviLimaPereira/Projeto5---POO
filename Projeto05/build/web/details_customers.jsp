@@ -11,11 +11,38 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <title>JavaDB - Compras</title>
     </head>
     <body>
-        <h1>JavaDB</h1>
-        <h2>Compras do Clientes</h2>
+       <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
+    <div class="container">
+        <!-- Brand -->
+        <h2>JAVADB - Detalhes</h2>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"> JavaDB </span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto"> 
+                
+                
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="customers.jsp">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="manufacturer.jsp">Fabricantes</a>
+                </li>
+                
+            </ul>
+        </div> 
+    </div>
+</nav>
+        
+        <h2 class="text-center py-4">Compras do Cliente</h2>
        
         <%try{%>
             <% int id = Integer.parseInt(request.getParameter("id")); %>
@@ -44,7 +71,6 @@
         <%} catch(Exception e){%>
             <h3 style="color: red"><%= e.getMessage()%></h3>
         <%}%>
-        <hr/><hr/>
-         <h3><a href="customers.jsp">Voltar a Página de Clientes</a></h3>
+       
     </body>
 </html>

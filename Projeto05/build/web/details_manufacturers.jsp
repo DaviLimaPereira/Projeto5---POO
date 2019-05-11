@@ -18,8 +18,8 @@
         <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
             <div class="container">
                 <!-- Brand -->
-                <a class="navbar-brand" href="index.jsp">Inicio</a>
-                <span class="navbar-toggler-icon"> JavaDB </span>
+                 <h2>JAVADB - Detalhes</h2>
+                
 
                 <!-- Navbar links -->
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -36,7 +36,7 @@
         </nav>
         
         <div class="container mt-5">
-            <h1 class="text-center py-4">JavaDB</h1>
+           
             <h2 class="text-center py-4">Produtos do Fabricante</h2>
         
             <%try{%>
