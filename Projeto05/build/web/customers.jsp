@@ -18,7 +18,34 @@
         
     </head>
     <body>
-        <h1>JavaDB</h1>
+       
+        <nav class="navbar bg-dark text-white navbar-expand-md navbar-bg">
+    <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.jsp">Inicio</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"> JavaDB </span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto"> 
+                
+                
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="customers.jsp">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="manufacturer.jsp">Fabricantes</a>
+                </li>
+                
+            </ul>
+        </div> 
+    </div>
+</nav>
+         <h1>JavaDB</h1>
         <h2>Clientes</h2>
         <h3><a href="index.jsp">Voltar a Página Principal</a></h3>
         <%try{%>
