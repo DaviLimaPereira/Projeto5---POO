@@ -44,9 +44,7 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto"> 
-                <li class="nav-item">
-                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="index.jsp">Inicio</a>
-                </li>                
+                               
                 <li class="nav-item">
                     <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="customers.jsp">Clientes</a>
                 </li>
@@ -77,11 +75,11 @@
                     </div>
                     <div class="col-sm">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="" alt="Imagem de capa do card">
+                            <img class="card-img-top" src="img/Rafa.jpg" alt="Imagem de capa do card">
                             <div class="card-body">
-                                <h5 class="card-title">RAFAEL</h5>
-                                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-                                <a href="#" class="btn btn-primary">Github</a>
+                                <h5 class="card-title">RAFAEL SOUSA</h5>
+                                <p class="card-text">Formado pela ETEC Mongaguá em 2008 como Técnico em Administração. Atualmente cursando Analise e Desenvolvimento de Sistemas pela Fatec Praia Grande.</p>
+                                <a href="https://github.com/Rafaelsansousa12" class="btn btn-primary">Github</a>
                             </div>
                         </div>
                     </div>

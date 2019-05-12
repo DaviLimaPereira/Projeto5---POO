@@ -26,7 +26,7 @@
         <nav class="navbar fixed-top bg-dark text-white navbar-expand-md navbar-bg">
             <div class="container">
                 <!-- Brand -->
-                 <h2>JAVADB - Detalhes do Fabricante</h2>
+                 <h2>JAVADB - Detalhes</h2>
                 
 
                 <!-- Navbar links -->
